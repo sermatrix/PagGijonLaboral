@@ -116,3 +116,50 @@ a{
 p{
     font-family: sans-serif;
 }
+
+.enero{
+    background-color: rgba(0, 0, 250, 0.384);
+}
+.febrero{
+    background-color: rgba(0, 140, 255, 0.411);
+}
+
+.marzo{
+    background-color: rgba(10, 160, 85, 0.384);
+}
+
+.abril{
+    background-color: rgba(10, 231, 84, 0.377);
+}
+
+.mayo{
+    background-color: #0f6d0c59;
+}
+
+.junio{
+    background-color: #ce226a56;
+}
+
+.julio{
+    background-color: #d813445b;
+}
+
+.agosto{
+    background-color: #d13a144f;
+}
+
+.septiembre{
+    background-color: #e2701357;
+}
+
+.octubre{
+    background-color: #ddab234b;
+}
+
+.noviembre{
+    background-color: #8f10e459;
+}
+
+.diciembre{
+    background-color: #5d14d17a;
+}
