@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Visitas Universidad Laboral</h1>
+
+  <form action="formvisitas.php" method="get">
+    
+    <fieldset>
+    <p>Bienvenido al formulario de gestion de visitas a la Universidad Laboral</p>
+    
+    <fieldset>
+        <legend>Datos Personales</legend>
+        
+        <label for="nombre">Nombre:</label> 
+        <input name="nombre" type="text">
+        
+        <label for="apellidos">Apellidos:</label>
+        <input name="apellidos" type="text">
+
+        <label for="edad">Fecha de nacimiento:</label>
+        <input type="date" name="edad">
+        
+        <label for="DNI">DNI:</label> 
+        <input name="DNI" type="text">
+
+        <label for="telefono">Telefono:</label> 
+        <input name="telefono" type="text">
+    </fieldset>
+
+    <fieldset>
+        <legend>Datos de la visita</legend>
+
+        <label for="fecha">Fecha de la visita:</label>
+        <input name="fecha" type="date">
+
+        <label for="asistentes">Asistentes:</label>
+        <input name="asistentes" type="number" min="1">
+
+    </fieldset>
+
+    </fieldset>
+  </form>
+
+
+
+  <footer>
+    <p>Muchas gracias</p>
+  </footer>
+</body>
+</html>
