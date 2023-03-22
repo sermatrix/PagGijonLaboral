@@ -4,48 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="estilos/estiloGijon.css">
+    <title>Formulario visitas Universidad Laboral</title>
 </head>
 <body>
     <h1>Visitas Universidad Laboral</h1>
 
-  <form action="formvisitas.php" method="get">
+    <form action="recoger_datos.php" method="post">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required><br><br>
     
-    <fieldset>
-    <p>Bienvenido al formulario de gestion de visitas a la Universidad Laboral</p>
+      <label for="apellido">Apellido:</label>
+      <input type="text" id="apellido" name="apellido" required><br><br>
     
-    <fieldset>
-        <legend>Datos Personales</legend>
-        
-        <label for="nombre">Nombre:</label> 
-        <input name="nombre" type="text">
-        
-        <label for="apellidos">Apellidos:</label>
-        <input name="apellidos" type="text">
-
-        <label for="edad">Fecha de nacimiento:</label>
-        <input type="date" name="edad">
-        
-        <label for="DNI">DNI:</label> 
-        <input name="DNI" type="text">
-
-        <label for="telefono">Telefono:</label> 
-        <input name="telefono" type="text">
-    </fieldset>
-
-    <fieldset>
-        <legend>Datos de la visita</legend>
-
-        <label for="fecha">Fecha de la visita:</label>
-        <input name="fecha" type="date">
-
-        <label for="asistentes">Asistentes:</label>
-        <input name="asistentes" type="number" min="1">
-
-    </fieldset>
-
-    </fieldset>
-  </form>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+    
+      <label for="telefono">Teléfono:</label>
+      <input type="tel" id="telefono" name="telefono" required><br><br>
+    
+      <label for="fecha">Fecha de visita:</label>
+      <input type="date" id="fecha" name="fecha" required><br><br>
+    
+      <label for="hora">Hora de visita:</label>
+      <input type="time" id="hora" name="hora" required><br><br>
+    
+      <label for="num_personas">Número de personas:</label>
+      <input type="number" id="num_personas" name="num_personas" min="1" max="10" required><br><br>
+    
+      <label for="tipo_entrada">Tipo de entrada:</label>
+      <select id="tipo_entrada" name="tipo_entrada" required>
+        <option value="">Seleccione una opción</option>
+        <option value="normal">Normal</option>
+        <option value="estudiante">Estudiante</option>
+        <option value="jubilado">Jubilado</option>
+        <option value="grupo">Grupo</option>
+      </select><br><br>
+    
+      <label for="observaciones">Observaciones:</label>
+      <textarea id="observaciones" name="observaciones"></textarea><br><br>
+    
+      <input type="submit" value="Enviar">
+    </form>
 
 
 
