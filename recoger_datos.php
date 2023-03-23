@@ -31,6 +31,10 @@
         echo "<li><strong>Tipo de entrada:</strong> $tipo_entrada</li>";
         echo "<li><strong>Observaciones:</strong> $observaciones</li>";
         echo "</ul>";
+
+        if ($nombre) {
+          # code...
+        }
       
     ?>
   </body>

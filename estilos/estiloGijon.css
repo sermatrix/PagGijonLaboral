@@ -163,3 +163,44 @@ p{
 .diciembre{
     background-color: #5d14d17a;
 }
+
+.claseRara{
+    clear: both;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the header */
+  header {
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+  }
+  
+  article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+
+  figure{
+    float: right;
+  }
+  
+  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
